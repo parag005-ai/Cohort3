@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "poppin";
+    src: url(./Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "poppins large";
+    src: url(./Poppins-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Monteserrate";
+    src: url(./Montserrat-VariableFont_wght.ttf);
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: white;
+}
+.box{
+    height: 620px;
+    width: 1300px;
+    background-color: white;
+    position: relative;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border:1px solid transparent;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    gap:0;
+
+}
+#box1{
+    height:100%;
+    width: 65%;
+    background-color:rgb(248, 203, 2);
+    border:1px solid transparent;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#box2{
+    height:100%;
+    width:35%;
+    background-color:rgb(242, 225, 164);
+    border:1px solid transparent;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#pika{
+    height:80%;
+    position:absolute;
+    display: flex;
+    right:150px;
+    z-index: 2;
+}
+#logo{
+    height:10%;
+    position:absolute;
+    left:20px;
+    top:20px;   
+}
+#small{
+    font-family: Monteserrate;
+    letter-spacing: 5px;
+    position:absolute;
+    top:20%;
+    left:50px;
+}
+#large{
+    font-family: poppins large;
+    font-size: 120px;
+    font-weight: 800;
+    position:absolute;
+    top:22%;
+    left:45px;
+}
+#para{
+    font-family:poppin;
+    font-size: 16px;
+    position:absolute;
+    width:400px;
+    top:50%;
+    left:50px;
+}
+#ball{
+    height:50%;
+    position: absolute;
+    bottom:0;
+    /* display: flex; */
+    left:0px;
+    bottom:-130px;
+    z-index: 1;
+    opacity: 30%;
+}
+.menu{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:6px;
+    top:15px;
+    right:15px;
+}
+.hamm{
+    height:1.4px;
+    width:35px;
+    background-color: black;
+}
+.dots{
+    position: absolute;
+    display: flex;
+    top:50%;
+    right:15px;
+    align-items: center;
+    flex-direction:column;
+    gap:6px;
+
+}
+.darkdot{
+    height:10px;
+    width:10px;
+    background-color: black;
+    border-radius: 50%;
+
+}
+.dot{
+    height:8px;
+    width:8px;
+    background-color:rgb(248, 203, 2) ;
+    border-radius: 50%;
+}
+#lastdash{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    gap:20px;   
+    top:446px;
+    left:55px;
+}
+#num{
+    font-family: poppins large;
+    font-size:15px;
+    letter-spacing: 4px;
+
+
+}
